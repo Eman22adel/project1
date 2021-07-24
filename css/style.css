@@ -1,0 +1,40 @@
+/* .lead {
+  font-weight: bold;
+}
+
+@media (min-width: 576px)
+ {
+   ul {
+    font-weight: bold;
+    color: blue;
+   }
+ } */
+
+/* .myClass {
+  width: 600px;
+  height: 400px;
+  background-color: #09c;
+} */
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  margin-top: -50px;
+}
+
+body {
+  height: 4000px;
+}
+
+/* header {
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+} */
+
+span {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+}

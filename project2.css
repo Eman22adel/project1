@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #404559;
+}
+
+/* nav */
+.nav{
+    background-color: transparent;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.nav .igon i{
+    font-size: 2rem;
+    padding: 0.2rem 2rem;
+}
+.nav .igon  ul {
+    font-weight: bold;
+    padding: 0.2rem;
+}
+.nav .igon  ul :nth-child(1){
+    color: #dd3e54;
+}.nav .igon  ul :nth-child(2){
+    color: #6be585;
+}.nav .igon  ul :nth-child(3){
+    color: #a8ff78;
+}.nav .igon  ul :nth-child(4){
+    color: #78ffd6;
+}
+.nav button{
+    background-color: transparent;
+    color: white;
+    border-radius: 3rem;
+    padding: 0rem 3rem;
+    border-color: #dd3e54#6be585#a8ff78#78ffd6;
+    border-width: 0.2rem;
+}
+.active{
+    border-bottom: 0.1rem solid ;
+    padding-bottom: 1rem;
+}
+@media (max-width:700px) {
+    .nav{
+        padding: 0rem 1rem;
+    }  
+    .nav .igon i{
+        font-size: 1.5rem;
+        padding: 0.1rem 1rem;
+    }
+    .nav .igon ul{
+        padding: 0.1rem;
+    }
+    .nav .igon ul li{
+        padding: 0 0.5rem;
+    }
+    .nav button{
+        padding: 0rem 0.5rem;
+    }
+}
+ 
+/* header */
+
+
+.header h1{
+    color: white;
+    font-weight: bold;
+}
+.header p{
+    color:#919191;
+}
+
+.header a i{
+    margin-top: 2rem;
+    border-radius: 4rem;
+    border: 0.2rem solid;
+    border-color:#dd3e54#6be585#a8ff78#78ffd6;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.5rem;
+}
+
+.photo img{
+    height: 40%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+@media (max-width:700px) {
+    .header a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .photo{
+        width: 100%;
+    }
+    .photo img{
+        height:400px;
+        width:100%;
+        border-radius: 0%;
+        margin-top: 3rem;
+    }
+}
+
+/* start fixed */
+
+.fixed{
+    box-shadow: #919191 -0.5rem -0.5rem 0.5rem;
+    background: linear-gradient(to right, #dd3e54, #6be585);
+    border-radius: 5rem;
+    width: 270px;
+    padding-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.fixed i{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* end fixed */
